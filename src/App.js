@@ -16,7 +16,7 @@ function App() {
       <h1>Breaking Bad</h1>
     <card className="pro">
       {name.map((item)=>(
-      <div key={item.id} className="card">   <img src={item.img}/> <br/>
+      <div key={item.id} className="card">   <img src={item.img} alt="characters"/> <br/>
    Name :{item.name} <br/>
    Birthday : {item.birthday}<br/>
    Occupation :{item.occupation}<br/>
